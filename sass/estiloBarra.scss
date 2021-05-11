@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+header{
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    float: right;
+
+    ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        
+
+        li{
+            list-style: none;
+
+           
+
+            a{
+                display: block;
+                margin: 10px 0;
+                padding: 10px 10px;
+                text-decoration: none;
+                color: indianred;
+            }
+                a.active{
+                    background: black;
+                    color: #fff;
+                    }
+
+                    a:hover{
+                        background: black;
+                        color: #fff;
+                        transition: 0.3s;
+                    }
+            
+            
+
+            }
+            :hover{
+                
+            
+                .subMenu{
+                display: block;
+                padding-left: 4px;
+                
+                
+                }
+    
+            }
+
+        }
+        
+    
+            
+
+            
+     }
+
+     .subMenu{
+        position: absolute;
+        background-color:lightblue;
+        display: none;
+        padding-top: 10px;
+
+        
+       
+        
+    
+        li{
+            
+    
+    
+            a{
+                display: block;
+                color: black;
+                text-decoration: none;
+               
+                
+                
+                
+    
+                
+            }
+                
+       
+        }
+    }
+    
+
+    
+
+.clearFix{
+    clear: both;
+
+}
+
+
+
+@media (max-width: 1200px){
+    header{
+        margin: 20px;
+
+    }
+}
+
+@media (max-width: 768px){
+
+    .menu-toggle{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+       
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #0f5543;
+
+        
+            
+        }
+
+        .menu-toggle:before{
+            content: "\f0c9";
+            font-family: fontAwesome;
+            line-height: 40px;
+            position: absolute;
+
+        }
+
+        .menu-toggle.active:before{
+            content: "\f00d";
+            
+            
+
+        }
+
+        nav{
+            display: none;
+            
+
+        }
+
+        nav.active{
+            display: block;
+            width: 100%;
+
+            ul{
+                display: block;
+                position: relative;
+
+                li{
+                    a{
+                    margin: 0;
+                }
+                }
+
+            }
+
+        }
+
+        .subMenu{
+            display: none;
+
+            ul{
+                display: block;
+                
+                
+                li{
+                    
+                    a{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        
+    
+    .subMenu.active{
+
+        display: none;
+        width: 100%;
+
+        ul{
+            display: block;
+
+            li{
+                a{
+                margin: 0;
+            }
+            }
+
+        }
+
+    }
+    
+
+}

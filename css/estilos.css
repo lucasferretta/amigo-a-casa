@@ -1,0 +1,265 @@
+
+
+* {
+	margin: 0px;
+	padding: 0;
+	
+
+}
+
+body{
+	text-align: center;
+	background-color: #FFF6D3;
+	
+}
+
+header{
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+aside{
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: -200px;
+	margin-left: -970px;
+	margin-bottom: 500px;
+
+}
+
+article{
+	display: flex;
+	flex-flow: column wrap;
+	display: flex;
+	margin-left: 400px;
+	margin-top: -1000px;
+	margin-right: 800px;
+	
+}
+
+
+h1{
+	font-weight: bold;
+	color: #cc7879; 
+	font-size: 6rem;
+	font-family: "pacifico",cursive;
+	margin-top: -440px;
+	margin-left: -200px;
+	align-items: center;
+
+	
+	
+	
+}
+
+h2{
+	color:#cc7879;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 2.8rem;
+}
+
+h3, h4{
+	color:#cc7879;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 1.4rem;
+	text-align: center;
+	padding-left: 30px;
+
+}
+
+p{
+	font-style:italic;
+	font-weight:bold;
+
+}
+
+div{
+	padding-top: 70px;
+	padding-bottom: 20px;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+#nosotrosEstilo{
+	margin-right: 380px ;
+}
+
+#adoptarEstilo{
+	margin-right: 50px ;
+	margin-left: 220px;
+}
+
+#donarEstilo{
+	margin-right: 380px ;
+
+}
+
+#equipoEstilo{
+	margin-right: 290px ;
+
+}
+	
+
+
+ol li{
+	list-style-type: decimal;
+	color:#92CDFF;
+	font-weight:bold; 
+	list-style-position: inside;
+}
+
+ul{
+	color:#92CDFF;
+	font-weight:bold; 
+	list-style-position: inside;
+	list-style-image: url("https://img.icons8.com/pastel-glyph/15/000000/dog-footprint.png");
+	
+}
+
+
+
+.navegacion{
+	background-color: #adadad;
+	width: 1063px;
+	padding: 5px 100px 5px 100px ;
+	margin-left: -200px;
+	margin-top: 20px;
+	
+
+}
+
+.navegacion ul{
+	list-style: none;
+
+}
+
+.barra > li{
+	position: relative;
+	display: inline-block;
+}
+
+.barra > li > a{
+	display: block;
+	padding: 15px 20 px;
+	font-family: Arial;
+	text-decoration: none;
+	color: black;
+}
+
+.barra li a:hover{
+	color: #cc7879;
+	transition: all 0.2s;
+}
+
+.subMenu{
+	position: absolute;
+	background:#adadad;
+	width: 200%;
+	display: none;
+	text-align: left;
+}
+.subMenu li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	margin-top:3px
+
+}
+
+.barra li:hover .subMenu{
+	display: block;
+
+}
+
+tr, th, td{
+	font-weight:bold; 
+
+
+}
+
+footer{
+	color: #cc7879;
+	background-color: black;
+	text-align: center;
+	margin-top:10px;
+
+	
+
+	
+}
+
+
+
+
+.pie{
+    font-style:italic;
+	font-weight:bold;
+	text-align: center;
+	padding-left: 100px;
+
+
+	
+
+}
+
+
+.logo{
+	width: 300px;
+	display: flex;
+
+}
+
+.redes{
+	width: 70px;
+	
+	
+
+
+}
+
+.ig{
+	width: 120px;
+	
+}
+
+
+.imgYVid{
+	width: 600px;
+}
+
+.imgFoot{
+	width: 200px;
+	margin-left: 180px;
+}
+
+#video{
+	width: 250px;
+	margin-left: 170px;
+}
+
+.boton{
+	color: #cc7879 ;
+	border-style: solid;
+	border-right: solid 3px;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	padding-right: 5px;
+	
+}
+
+.boton2{
+	color: #cc7879 ;
+	border-style: solid;
+	border-right: solid 3px;
+	border-left: solid 3px;
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+	padding: 3px;
+	text-decoration: none;
+	
+}
+
